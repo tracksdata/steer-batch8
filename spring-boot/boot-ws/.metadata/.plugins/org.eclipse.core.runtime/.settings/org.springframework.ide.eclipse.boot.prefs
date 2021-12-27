@@ -1,11 +1,13 @@
 eclipse.preferences.version=1
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=1-boot-core
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jdbc=2
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.mysql=2
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=3-boot-jdbc
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.6.2
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Demo project for Spring Boot
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.xoriant
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=11
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=1-boot-core
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=3-boot-jdbc
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.xoriant.ecart
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
