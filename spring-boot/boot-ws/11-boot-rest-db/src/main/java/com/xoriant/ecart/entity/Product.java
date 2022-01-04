@@ -19,6 +19,9 @@ public class Product {
 	private double productPrice;
 	private int productQty;
 	private String productKeywords;
+	private String productImage;
+	private String productDesc;
+	
 	
 	@ManyToOne(cascade = CascadeType.REFRESH,fetch = FetchType.EAGER)
 	@JoinColumn(name="product_cat")
@@ -30,6 +33,18 @@ public class Product {
 	
 	
 	
+	public String getProductImage() {
+		return productImage;
+	}
+	public void setProductImage(String productImage) {
+		this.productImage = productImage;
+	}
+	public String getProductDesc() {
+		return productDesc;
+	}
+	public void setProductDesc(String productDesc) {
+		this.productDesc = productDesc;
+	}
 	public Category getCategory() {
 		return category;
 	}

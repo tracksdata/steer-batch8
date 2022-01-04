@@ -11,6 +11,8 @@ public class Brand {
 	@GeneratedValue
 	private int brandId;
 	private String brandTitle;
+	
+	
 
 	public int getBrandId() {
 		return brandId;
