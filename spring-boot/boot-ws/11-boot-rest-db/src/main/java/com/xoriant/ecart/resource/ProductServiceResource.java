@@ -1,6 +1,5 @@
 package com.xoriant.ecart.resource;
 
-import java.net.Authenticator.RequestorType;
 import java.util.List;
 import java.util.stream.Collectors;
 
