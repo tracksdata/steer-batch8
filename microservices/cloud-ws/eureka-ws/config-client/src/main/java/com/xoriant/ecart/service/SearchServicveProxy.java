@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.xoriant.ecart.entity.Product;
 
-@FeignClient(name = "search-service",url = "http://localhost:8082/api/search")
+@FeignClient(name = "search-service") // http://search-service
 public interface SearchServicveProxy {
 
-	@GetMapping
+	@GetMapping("/api/search")
 	List<Product> findAll();
 	
-	@GetMapping("/{productId}")
+	@GetMapping("/api/search/{productId}")
 	Product findById(@PathVariable int productId);
 	
 }
